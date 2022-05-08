@@ -1,0 +1,222 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  background: linear-gradient(hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+body .main {
+  background-color: #ffffff;
+  background-image: url(../images/bg-pattern-desktop.svg);
+  background-size: contain;
+  background-position: -7rem 0rem;
+  width: 65%;
+  height: 60%;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+body .main .box {
+  position: absolute;
+  left: 7.5rem;
+  top: 20.8rem;
+  z-index: 2;
+}
+body .main .woman {
+  position: absolute;
+  top: 13rem;
+  left: 12rem;
+  z-index: 1;
+  width: 30%;
+  height: 45%;
+}
+body .main .content {
+  height: 70%;
+  width: 50%;
+  margin: 0 10% 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+body .main .content .header {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+body .main .content button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+body .main .content .faq {
+  border-bottom: 1px solid hsl(240deg, 5%, 91%);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+body .main .content .faq:hover {
+  cursor: pointer;
+}
+body .main .content .faq .question {
+  display: flex;
+  justify-content: space-between;
+}
+body .main .content span {
+  display: none;
+}
+body .main .content .change h4 {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+body .main .content .change button {
+  transform: scale(-1);
+}
+body .main .content .change span {
+  display: inline;
+}
+
+/*# sourceMappingURL=style.css.map */
