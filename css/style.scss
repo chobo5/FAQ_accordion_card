@@ -100,3 +100,48 @@ body {
     }
     
 }
+
+@media screen and (max-width: 800px) {
+    html {
+        width: 100vw;
+        height: 100vh;
+        body {
+            width: 100vw;
+            height: 100vh;
+            .main {
+                margin-top: 7rem;
+                width: 90%;
+                height: 70%;
+                background-size: 79% 50%;
+                background-position: 3rem -11rem;
+                .box {
+                    position: absolute;
+                    top: 7rem;
+                    left: 13%;
+                    width: 28%;
+                    height: 15%;
+                    
+                }
+                .woman {
+                    position: absolute;
+                    top: 3.3rem;
+                    left: 15%;
+                    width: 70%;
+                    height: 25%;
+                    
+                }
+                .content {
+                    width: 100%;
+                    align-items: center;
+                    margin: 30% 10% 15% 10%;
+                    .faq {
+                        width: 100%;
+                    }
+
+                    
+                }
+            }
+        }
+    }
+    
+}

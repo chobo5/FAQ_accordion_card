@@ -219,4 +219,44 @@ body .main .content .change span {
   display: inline;
 }
 
+@media screen and (max-width: 800px) {
+  html {
+    width: 100vw;
+    height: 100vh;
+  }
+  html body {
+    width: 100vw;
+    height: 100vh;
+  }
+  html body .main {
+    margin-top: 7rem;
+    width: 90%;
+    height: 70%;
+    background-size: 79% 50%;
+    background-position: 3rem -11rem;
+  }
+  html body .main .box {
+    position: absolute;
+    top: 7rem;
+    left: 13%;
+    width: 28%;
+    height: 15%;
+  }
+  html body .main .woman {
+    position: absolute;
+    top: 3.3rem;
+    left: 15%;
+    width: 70%;
+    height: 25%;
+  }
+  html body .main .content {
+    width: 100%;
+    align-items: center;
+    margin: 30% 10% 15% 10%;
+  }
+  html body .main .content .faq {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
